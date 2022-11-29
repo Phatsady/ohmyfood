@@ -1,0 +1,16 @@
+@mixin font-roboto {
+    font-family: 'roboto-regular', sans-serif;
+}
+@mixin restaurant-cards {
+    margin: auto;
+    border-radius: 30px;
+    background-color: $color-white;    
+}
+
+@mixin restaurant-img {    
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;  
+}
