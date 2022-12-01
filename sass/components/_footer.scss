@@ -1,0 +1,17 @@
+.footer {
+    background-color: grey;
+    &__heading {
+
+    }
+    &__links {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        @include font-roboto;
+        a {
+            padding: 10px 0px 10px 0px;
+            text-decoration: none;
+            color: $color-white;
+        }
+    }
+}

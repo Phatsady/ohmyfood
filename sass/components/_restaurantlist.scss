@@ -1,0 +1,35 @@
+.restaurant-list {
+    background-color: $color-background;
+    &__heading {
+        @include font-roboto;
+        padding: 50px 0 20px 20px;
+
+    }
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+        text-decoration: none;
+        padding-bottom: 50px;     
+    }
+}
+
+.restaurant--1, .restaurant--2, .restaurant--3, .restaurant--4 {
+    @include restaurant-cards;    
+    box-shadow: 0 4px 8px 0 grey;
+    a {
+        @include font-roboto;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.restaurant img {
+    @include restaurant-img;   
+}
+
+.restaurant__text {
+        padding: 0 0 10px 20px;
+}

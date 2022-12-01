@@ -2,9 +2,10 @@
     font-family: 'roboto-regular', sans-serif;
 }
 @mixin restaurant-cards {
-    margin: auto;
+    width: 100%;
     border-radius: 30px;
-    background-color: $color-white;    
+    background-color: $color-white;
+    margin: 12px 0 14px 0;  
 }
 
 @mixin restaurant-img {    

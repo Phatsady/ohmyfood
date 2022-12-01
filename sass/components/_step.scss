@@ -1,0 +1,30 @@
+.step {
+    display: flex;
+    background-color: $color-background;
+    height: 80px;
+    font-size: 14px;
+    font-family: 'roboto-regular', sans-serif;
+    box-shadow: 0 4px 8px darken($color-background, 15%);
+    border-radius: 15px;
+    &__text {
+        display: flex;
+        align-items: center;
+        padding-right: 15px;
+        i {
+            margin: 0 30px;
+            color: darken($color-background, 40%);
+            font-size: 20px;
+        }
+    }
+    &__number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        width: 20px;
+        border-radius: 10px;
+        position: absolute;
+        color: $color-white;
+        background-color: $color-primary;
+    }
+}

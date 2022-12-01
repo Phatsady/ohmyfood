@@ -82,18 +82,24 @@ h1, h2, h3 {
 }
 .restaurant-list__heading {
   font-family: "roboto-regular", sans-serif;
-  padding-left: 20px;
+  padding: 50px 0 20px 20px;
 }
 .restaurant-list__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 90%;
   margin: auto;
   text-decoration: none;
+  padding-bottom: 50px;
 }
 
 .restaurant--1, .restaurant--2, .restaurant--3, .restaurant--4 {
-  margin: auto;
+  width: 100%;
   border-radius: 30px;
   background-color: #FFF;
+  margin: 12px 0 14px 0;
+  box-shadow: 0 4px 8px 0 grey;
 }
 .restaurant--1 a, .restaurant--2 a, .restaurant--3 a, .restaurant--4 a {
   font-family: "roboto-regular", sans-serif;
@@ -109,6 +115,10 @@ h1, h2, h3 {
   border-top-right-radius: 30px;
 }
 
+.restaurant__text {
+  padding: 0 0 10px 20px;
+}
+
 .footer {
   background-color: grey;
 }
@@ -119,7 +129,9 @@ h1, h2, h3 {
   font-family: "roboto-regular", sans-serif;
 }
 .footer__links a {
+  padding: 10px 0px 10px 0px;
   text-decoration: none;
+  color: #FFF;
 }
 
 .header {
