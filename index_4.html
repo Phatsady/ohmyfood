@@ -3,19 +3,21 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://kit.fontawesome.com/969db9892e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./public/css/style.css">
         <title>Le délice des sens</title>
     </head>
 
     <body>
-        <header>
-            <div class="logo">
-                <img src="asset/images/logo/ohmyfood.png" alt="Logo">
+        <header class="header header--shadow">
+            <a class="header__arrow" href="./index.html"></a>
+            <div class="header__logo">
+                <img src="public/images/logo/ohmyfood.png" alt="Logo">
             </div>
         </header>
 
         <section class="picture">
             <div>
-                <img src="asset/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
+                <img src="public/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
             </div>
         </section>
 
@@ -25,64 +27,58 @@
                 <i class="fas fa-heart"></i>
             </div>
             <h2>ENTREES</h2>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Tartare de thon</h3>
-                <p class="menu list__text">Assaisonée au yuzu</p>
-                <p class="menu list__text">25€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Tartare de thon</h3>
+                <p class="menu__list__text">Assaisonée au yuzu<br>25€</br></p>
             </div>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Bouchée de homard croustillant</h3>
-                <p class="menu list__text">Et sa farandole de petits légumes</p>
-                <p class="menu list__text">35€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Bouchée de homard croustillant</h3>
+                <p class="menu__list__text">Et sa farandole de petits légumes<br>35€</br></p>
             </div>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Velouté de cèpes</h3>
-                <p class="menu list__text">Aux truffes</p>
-                <p class="menu list__text">20€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Velouté de cèpes</h3>
+                <p class="menu__list__text">Aux truffes<br>20€</br></p>
             </div>
             <h2>PLATS</h2>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Poulet rôti aux herbes de provence</h3>
-                <p class="menu list__text">Et sa crème de truffe</p>
-                <p class="menu list__text">40€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Poulet rôti aux herbes de provence</h3>
+                <p class="menu__list__text">Et sa crème de truffe<br>40€</br></p>
             </div>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Langoustine rôtie</h3>
-                <p>Et ses légumes de saison</p>
-                <p>35€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Langoustine rôtie</h3>
+                <p class="menu__list__text">Et ses légumes de saison<br>35€</br></p>
             </div>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Côte de boeuf Angus</h3>
-                <p class="menu list__text">Et sa purée de panais</p>
-                <p class="menu list__text">44€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Côte de boeuf Angus</h3>
+                <p class="menu__list__text">Et sa purée de panais<br>44€</br></p>
             </div>
             <h2>DESSERTS</h2>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Farandole de desserts</h3>
-                <p class="menu list__text">Du chef</p>
-                <p class="menu list__text">18€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Farandole de desserts</h3>
+                <p class="menu__list__text">Du chef<br>18€</br></p>
             </div>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Crème brulée</h3>
-                <p class="menu list__text">Revisité</p>
-                <p class="menu list__text">22€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Crème brulée</h3>
+                <p class="menu__list__text">Revisité<br>22€</br></p>
             </div>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Tiramisu</h3>
-                <p class="menu list__text">A la noisettee</p>
-                <p class="menu list__text">23€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Tiramisu</h3>
+                <p class="menu__list__text">A la noisettee<br>23€</br></p>
             </div>
         </section>
 
         <section class="btn">
-            <div class="btn__order">
-                <a href="#">Commander</a>
-            </div>
+            <a href="#">
+                <div class="main-button">Commander
+                </div>            
+            </a>
         </section>
     </body>
     
     <footer class="footer">
-        <h2 class="footer__heading">ohmyfood</h2>
+        <div class="footer__logo">
+            <img src="public/images/logo/ohmyfood.png" alt="Logo">
+        </div>
         <div class="footer__links">
             <a href="#">Proposer un restaurant</a>
             <a href="#">Devenir partenaire</a>

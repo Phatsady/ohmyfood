@@ -3,19 +3,21 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://kit.fontawesome.com/969db9892e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./public/css/style.css">
         <title>A la francaise</title>
     </head>
 
     <body>
-        <header>
-            <div class="logo">
-                <img src="asset/images/logo/ohmyfood.png" alt="Logo">
+        <header class="header header--shadow">
+            <a class="header__arrow" href="./index.html"></a>
+            <div class="header__logo">
+                <img src="public/images/logo/ohmyfood.png" alt="Logo">
             </div>
         </header>
 
         <section class="picture">
             <div>
-                <img src="asset/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
+                <img src="public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
             </div>
         </section>
 
@@ -25,64 +27,58 @@
                 <i class="fas fa-heart"></i>
             </div>
             <h2>ENTREES</h2>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Tartare de poulpe acidulé</h3>
-                <p class="menu list__text">Aux zestes d'orange</p>
-                <p class="menu list__text">25€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Tartare de poulpe acidulé</h3>
+                <p class="menu__list__text">Aux zestes d'orange<br>25€</br></p>
             </div>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Velouté de légumes d'antan</h3>
-                <p class="menu list__text">Carotte, panais, topinambour</p>
-                <p class="menu list__text">35€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Velouté de légumes d'antan</h3>
+                <p class="menu__list__text">Carotte, panais, topinambour<br>35€</br></p>
             </div>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Soupe à l'oignon</h3>
-                <p class="menu list__text">Revisitée</p>
-                <p class="menu list__text">20€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Soupe à l'oignon</h3>
+                <p class="menu__list__text">Revisitée<br>20€</br></p>
             </div>
             <h2>PLATS</h2>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Coquilles Saint-Jacques</h3>
-                <p class="menu list__text">Accompagnées d'une purée de panais</p>
-                <p class="menu list__text">40€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Coquilles Saint-Jacques</h3>
+                <p class="menu__list__text">Accompagnées d'une purée de panais<br>40€</br></p>
             </div>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Magret de canard</h3>
-                <p class="menu list__text">Et parmentier de pommes de terre</p>
-                <p class="menu list__text">35€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Magret de canard</h3>
+                <p class="menu__list__text">Et parmentier de pommes de terre<br>35€</br></p>
             </div>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Pigeonneau d'Ile-et-Vilaine</h3>
-                <p class="menu list__text">Sur son lit de gnocchis aux légumes</p>
-                <p class="menu list__text">44€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Pigeonneau d'Ile-et-Vilaine</h3>
+                <p class="menu__list__text">Sur son lit de gnocchis aux légumes<br>44€</br></p>
             </div>
             <h2>DESSERTS</h2>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Pétales de violettes glacés</h3>
-                <p class="menu list__text">Et purée de noisettes</p>
-                <p class="menu list__text">18€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Pétales de violettes glacés</h3>
+                <p class="menu__list__text">Et purée de noisettes<br>18€</br></p>
             </div>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Fondant au chocolat</h3>
-                <p class="menu list__text">Revisité</p>
-                <p class="menu list__text">22€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Fondant au chocolat</h3>
+                <p class="menu__list__text">Revisité<br>22€</br></p>
             </div>
-            <div class="menu--list">
-                <h3 class="menu list__heading">Millefeuille croustillant</h3>
-                <p class="menu list__text">Myrthilleset pâte d'amande</p>
-                <p class="menu list__text">23€</p>
+            <div class="menu__list">
+                <h3 class="menu__list__heading">Millefeuille croustillant</h3>
+                <p class="menu__list__text">Myrthilleset pâte d'amande<br>23€</br></p>
             </div>
         </section>
 
         <section class="btn">
-            <div class="btn__order">
-                <a href="#">Commander</a>
-            </div>
+            <a href="#">
+                <div class="main-button">Commander
+                </div>            
+            </a>
         </section>
     </body>
     
     <footer class="footer">
-        <h2 class="footer__heading">ohmyfood</h2>
+        <div class="footer__logo">
+            <img src="public/images/logo/ohmyfood.png" alt="Logo">
+        </div>
         <div class="footer__links">
             <a href="#">Proposer un restaurant</a>
             <a href="#">Devenir partenaire</a>

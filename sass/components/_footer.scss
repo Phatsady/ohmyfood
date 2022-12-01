@@ -1,7 +1,10 @@
 .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
     background-color: grey;
     &__heading {
-
+        padding-left: 2px;
     }
     &__links {
         display: flex;
@@ -14,4 +17,15 @@
             color: $color-white;
         }
     }
+    &__logo {
+        height: 25px;
+        padding-left: 20px;
+        img {
+            width: auto;
+            height: 100%;
+        }
+    }
+    &--shadow {
+            box-shadow: 0 2px 4px darken($color-background, 20%);
+    }    
 }

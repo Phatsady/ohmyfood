@@ -46,6 +46,14 @@ h1, h2, h3 {
   box-shadow: 0 6px 8px #737373;
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn a {
+  text-decoration: none;
+}
+
 .step {
   display: flex;
   background-color: #F2F2F2;
@@ -119,8 +127,38 @@ h1, h2, h3 {
   padding: 0 0 10px 20px;
 }
 
+.picture img {
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+  border-radius: 40px 40px 0 0;
+  background-color: #F2F2F2;
+}
+
+.menu__list {
+  width: 92%;
+  margin: auto;
+  border-radius: 15px;
+  background-color: #FFF;
+  box-shadow: 0 4px 8px 0 grey;
+}
+.menu__list__heading {
+  padding-left: 2px;
+}
+.menu__list__text {
+  padding-left: 2px;
+}
+
 .footer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
   background-color: grey;
+}
+.footer__heading {
+  padding-left: 2px;
 }
 .footer__links {
   display: flex;
@@ -132,6 +170,17 @@ h1, h2, h3 {
   padding: 10px 0px 10px 0px;
   text-decoration: none;
   color: #FFF;
+}
+.footer__logo {
+  height: 25px;
+  padding-left: 20px;
+}
+.footer__logo img {
+  width: auto;
+  height: 100%;
+}
+.footer--shadow {
+  box-shadow: 0 2px 4px #bfbfbf;
 }
 
 .header {

@@ -15,3 +15,7 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;  
 }
+
+@mixin picture {
+    width: 100%;
+}
