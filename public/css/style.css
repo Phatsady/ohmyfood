@@ -8,6 +8,7 @@ body {
 
 h1, h2, h3 {
   margin: 0;
+  font-family: "roboto-regular", sans-serif;
 }
 
 @font-face {
@@ -49,6 +50,7 @@ h1, h2, h3 {
 .btn {
   display: flex;
   justify-content: center;
+  padding: 30px 0 50px 0;
 }
 .btn a {
   text-decoration: none;
@@ -102,29 +104,61 @@ h1, h2, h3 {
   padding-bottom: 50px;
 }
 
-.restaurant--1, .restaurant--2, .restaurant--3, .restaurant--4 {
+.restaurant {
+  position: relative;
   width: 100%;
-  border-radius: 30px;
+  border-radius: 15px;
   background-color: #FFF;
   margin: 12px 0 14px 0;
   box-shadow: 0 4px 8px 0 grey;
 }
-.restaurant--1 a, .restaurant--2 a, .restaurant--3 a, .restaurant--4 a {
+.restaurant a {
   font-family: "roboto-regular", sans-serif;
   text-decoration: none;
   color: black;
 }
-
+.restaurant__text {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+}
+.restaurant__text h3 {
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-family: "roboto-regular", sans-serif;
+}
+.restaurant__text p {
+  margin: 0;
+  font-size: 14px;
+  font-family: "roboto-regular", sans-serif;
+}
 .restaurant img {
   width: 100%;
   height: 140px;
   object-fit: cover;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
-
-.restaurant__text {
-  padding: 0 0 10px 20px;
+.restaurant__new {
+  background-color: #99E2D0;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 6px 12px;
+  font-family: "roboto-regular", sans-serif;
+  border-radius: 3px;
+  color: #278870;
+}
+.restaurant__new p {
+  font-size: 12px;
+  margin: 0;
+}
+.restaurant__heart {
+  right: 15px;
+  bottom: 25px;
+  position: absolute;
 }
 
 .picture img {
@@ -145,10 +179,44 @@ h1, h2, h3 {
   box-shadow: 0 4px 8px 0 grey;
 }
 .menu__list__heading {
-  padding-left: 2px;
+  padding-left: 5px;
 }
 .menu__list__text {
-  padding-left: 2px;
+  padding-left: 5px;
+  font-family: "roboto-regular", sans-serif;
+}
+
+.heart-button {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.heart-button__empty {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  transition: right 0ms 200ms;
+}
+.heart-button__empty i {
+  font-size: 20px;
+}
+.heart-button__full {
+  right: 0;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  transform: scale(0);
+  transform-origin: 50% 100%;
+}
+.heart-button__full i {
+  font-size: 20px;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
 }
 
 .footer {

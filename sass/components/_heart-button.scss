@@ -1,0 +1,32 @@
+.heart-button {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    &__empty {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 0  ;
+        background-color: transparent;
+        border: none;
+        transition: right 0ms 200ms;
+        i {
+            font-size: 20px;
+        }     
+    }
+    &__full {
+        right: 0;
+        position: absolute;
+        bottom: 0;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        transform: scale(0);
+        transform-origin: 50% 100%;
+        i {
+            font-size: 20px;
+            background: linear-gradient($color-primary, $color-secondary);
+            -webkit-background-clip: text;
+        }        
+    }
+}

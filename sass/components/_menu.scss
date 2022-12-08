@@ -11,9 +11,10 @@
     background-color: $color-white;    
     box-shadow: 0 4px 8px 0 grey;
     &__heading {
-        padding-left: 2px;
+        padding-left: 5px;
     }
     &__text {
-        padding-left: 2px;
+        padding-left: 5px;
+        @include font-roboto;
     }
 }
