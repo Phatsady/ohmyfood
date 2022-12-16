@@ -12,8 +12,15 @@
         transition: right 0ms 200ms;
         i {
             font-size: 20px;
+        }
+        &:hover {
+            animation: heart-disappearance 300ms forwards;
+        }
+        &:hover + .heart-button__full {
+            animation: heart-growth 300ms ease-in-out forwards;
         }     
     }
+    
     &__full {
         right: 0;
         position: absolute;
@@ -27,6 +34,7 @@
             font-size: 20px;
             background: linear-gradient($color-primary, $color-secondary);
             -webkit-background-clip: text;
+            color: transparent;
         }        
     }
 }

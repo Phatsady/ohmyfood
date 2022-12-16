@@ -19,3 +19,21 @@
 @mixin picture {
     width: 100%;
 }
+
+@mixin tablet-only {
+    @media screen and (min-width: 750px) and (max-width: 1299px) {
+        @content
+    }
+}
+
+@mixin desktop-only {
+    @media screen and (min-width: 1300px) {
+        @content
+    }
+}
+
+@mixin tablet-desktop {
+    @media screen and (max-width: 750px) {
+        @content
+    }
+}

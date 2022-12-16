@@ -1,0 +1,14 @@
+.restaurant-banner {
+    margin-bottom: -32px;
+    height: 230px;
+    position: relative;
+
+    &__img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+        position: absolute;
+        vertical-align: middle;
+        z-index: -1;
+    }
+}

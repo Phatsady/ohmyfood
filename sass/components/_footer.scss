@@ -2,9 +2,12 @@
     display: flex;
     flex-direction: column;
     padding: 15px 0px;
-    background-color: grey;
-    &__heading {
-        padding-left: 2px;
+    background-color: #353535;
+    &__title {
+        font-size: 16px;
+        color: white;
+        font-family: "shrikhand-regular", sans-serif;
+        margin: 15px 0 20px 15px;
     }
     &__links {
         display: flex;
@@ -12,7 +15,7 @@
         padding-left: 15px;
         @include font-roboto;
         a {
-            padding: 10px 0px 10px 0px;
+            padding: 5px 0 5px 0;
             text-decoration: none;
             color: $color-white;
         }

@@ -13,7 +13,20 @@
         margin: auto;
         text-decoration: none;
         padding-bottom: 50px;
-        
+        @include tablet-only {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        @include desktop-only {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1300px;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
     }
 }
 
@@ -21,6 +34,12 @@
     position: relative;
     @include restaurant-cards;    
     box-shadow: 0 4px 8px 0 grey;
+    @include tablet-only {
+        width: 48%;        
+    }
+    @include desktop-only {
+        width: 48%;
+    }
     a {
         @include font-roboto;
         text-decoration: none;

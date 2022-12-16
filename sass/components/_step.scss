@@ -1,4 +1,10 @@
 .step {
+    @include tablet-only {
+        width: 30%;
+    }
+    @include desktop-only {
+        width: 20%;
+    }
     display: flex;
     background-color: $color-background;
     height: 80px;
@@ -6,6 +12,8 @@
     font-family: 'roboto-regular', sans-serif;
     box-shadow: 0 4px 8px darken($color-background, 15%);
     border-radius: 15px;
+    position: relative;
+    margin-bottom: 25px;
     &__text {
         display: flex;
         align-items: center;
@@ -26,5 +34,7 @@
         position: absolute;
         color: $color-white;
         background-color: $color-primary;
+        bottom: 30px;
+        left: -10px;
     }
 }
