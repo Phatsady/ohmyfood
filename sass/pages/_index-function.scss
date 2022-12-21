@@ -3,6 +3,9 @@
     &__heading {
         font-family: 'roboto-regular', sans-serif;
         font-size: 24px;
+        @include tablet-only {
+            padding-left: 20px;
+        }
     }   
     &__steps {
         margin-top: 30px;
