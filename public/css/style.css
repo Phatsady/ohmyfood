@@ -196,12 +196,13 @@ h1, h2, h3 {
 }
 @media screen and (min-width: 750px) and (max-width: 1299px) {
   .restaurant-list__heading {
-    padding-left: 40px;
+    padding-left: 80px;
   }
 }
 @media screen and (min-width: 1300px) {
   .restaurant-list__heading {
-    padding-left: auto;
+    display: flex;
+    justify-content: center;
   }
 }
 .restaurant-list__cards {
@@ -228,7 +229,6 @@ h1, h2, h3 {
     max-width: 1300px;
     margin: auto;
     margin-top: 30px;
-    margin-bottom: 15px;
   }
 }
 
@@ -598,7 +598,7 @@ h1, h2, h3 {
 .loader__screen {
   width: 48px;
   height: 48px;
-  border: 5px solid #FF79DA;
+  border: 5px solid #9356DC;
   border-bottom-color: transparent;
   border-radius: 50%;
   display: inline-block;
@@ -655,7 +655,13 @@ h1, h2, h3 {
 }
 @media screen and (min-width: 750px) and (max-width: 1299px) {
   .functionning__heading {
-    padding-left: 20px;
+    padding-left: 60px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .functionning__heading {
+    display: flex;
+    justify-content: center;
   }
 }
 .functionning__steps {

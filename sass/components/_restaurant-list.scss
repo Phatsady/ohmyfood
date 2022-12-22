@@ -4,10 +4,11 @@
         @include font-roboto;
         padding: 50px 0 20px 20px;
         @include tablet-only {
-            padding-left: 40px;
+            padding-left: 80px;
         }
         @include desktop-only {
-            padding-left: auto;
+            display: flex;
+            justify-content: center;
         }
     }
     &__cards {
@@ -29,8 +30,7 @@
             justify-content: space-between;
             max-width: 1300px;
             margin: auto;
-            margin-top: 30px;
-            margin-bottom: 15px;
+            margin-top: 30px;   
         }
     }
 }

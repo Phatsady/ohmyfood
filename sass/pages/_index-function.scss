@@ -4,7 +4,11 @@
         font-family: 'roboto-regular', sans-serif;
         font-size: 24px;
         @include tablet-only {
-            padding-left: 20px;
+            padding-left: 60px;
+        }
+        @include desktop-only {
+            display: flex;
+            justify-content: center;
         }
     }   
     &__steps {
