@@ -3,54 +3,66 @@
     flex-direction: column;
     padding: 15px 0px;
     background-color: #353535;
+
     @include tablet-only {
-        align-items: center;        
+        align-items: center;
     }
+
     @include desktop-only {
         align-items: center;
     }
+
     &__title {
         font-size: 16px;
         color: white;
         font-family: "shrikhand-regular", sans-serif;
         margin: 15px 0 20px 15px;
+
         @include tablet-only {
             font-size: 20px;
         }
+
         @include desktop-only {
             font-size: 26px;
         }
     }
+
     &__links {
         display: flex;
         flex-direction: column;
         padding-left: 15px;
         @include font-roboto;
+
         @include tablet-only {
             flex-direction: row;
             width: 100%;
             justify-content: space-evenly;
         }
+
         @include desktop-only {
             flex-direction: row;
             width: 100%;
             justify-content: space-evenly;
         }
+
         a {
             padding: 5px 0 5px 0;
             text-decoration: none;
             color: $color-white;
         }
     }
+
     &__logo {
         height: 25px;
         padding-left: 20px;
+
         img {
             width: auto;
             height: 100%;
         }
     }
+
     &--shadow {
-            box-shadow: 0 2px 4px darken($color-background, 20%);
-    }    
+        box-shadow: 0 2px 4px darken($color-background, 20%);
+    }
 }

@@ -2,28 +2,33 @@
     @include tablet-only {
         width: 30%;
     }
+
     @include desktop-only {
         width: 20%;
     }
+
     display: flex;
     background-color: $color-background;
     height: 80px;
     font-size: 14px;
-    font-family: 'roboto-regular', sans-serif;
+    @include font-roboto;
     box-shadow: 0 4px 8px darken($color-background, 15%);
     border-radius: 15px;
     position: relative;
     margin-bottom: 25px;
+
     &__text {
         display: flex;
         align-items: center;
         padding-right: 15px;
+
         i {
             margin: 0 30px;
             color: darken($color-background, 40%);
             font-size: 20px;
         }
     }
+
     &__number {
         display: flex;
         justify-content: center;

@@ -1,26 +1,33 @@
 .functionning {
     padding: 40px 15px;
+
     &__heading {
         font-family: 'roboto-regular', sans-serif;
         font-size: 24px;
+
         @include tablet-only {
             padding-left: 60px;
         }
+
         @include desktop-only {
             display: flex;
             justify-content: center;
         }
-    }   
+    }
+
     &__steps {
         margin-top: 30px;
+
         @include tablet-desktop {
             max-width: 700px;
             margin: auto;
         }
+
         @include tablet-only {
             display: flex;
             justify-content: space-between;
         }
+
         @include desktop-only {
             display: flex;
             justify-content: space-evenly;

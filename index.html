@@ -1,8 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/969db9892e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./public/css/style.css">
     <title>Ohmyfood</title>
@@ -120,15 +122,15 @@
                     </div>
                 </div>
                 <div class="restaurant">
-                    <div class="restaurant__img">
-                        <a href="index_3.html">
+                    <a href="index_3.html">
+                        <div class="restaurant__img">
                             <img src="public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
                                 alt="A la française">
-                    </div>
-                    <div class="restaurant__text">
-                        <h3>A la française</h3>
-                        <p>Cité Rouge</p>
-                    </div>
+                        </div>
+                        <div class="restaurant__text">
+                            <h3>A la française</h3>
+                            <p>Cité Rouge</p>
+                        </div>
                     </a>
                     <div class="restaurant__heart">
                         <button type="button" class="heart-button__empty">
@@ -148,30 +150,32 @@
                         <div class="restaurant__text">
                             <h3>Le délice des sens</h3>
                             <p>Folie-Méricourt</p>
-                            <div class="restaurant__heart">
-                                <button type="button" class="heart-button__empty">
-                                    <i class="far fa-heart"></i>
-                                </button>
-                                <button type="button" class="heart-button__full">
-                                    <i class="fas fa-heart"></i>
-                                </button>
-                            </div>
                         </div>
                     </a>
+                    <div class="restaurant__heart">
+                        <button type="button" class="heart-button__empty">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button type="button" class="heart-button__full">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <h3 class="footer__title">ohmyfood</h3>
+        <div class="footer__links">
+            <a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a>
+            <a href="#"><i class="fas fa-handshake"></i> Devenir partenaire</a>
+            <a href="#">Mentions légales</a>
+            <a href="#">Contact</a>
+        </div>
+    </footer>
 </body>
 
-<footer class="footer">    
-    <h3 class="footer__title">ohmyfood</h3>    
-    <div class="footer__links">
-        <a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a>
-        <a href="#"><i class="fas fa-handshake"></i> Devenir partenaire</a>
-        <a href="#">Mentions légales</a>
-        <a href="#">Contact</a>
-    </div>
-</footer>
+
 
 </html>

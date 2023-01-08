@@ -1,6 +1,7 @@
 .menu-list {
     padding: 15px;
     animation: menu-list-appearance 400ms ease-in-out both;
+
     @for $i from 1 through 4 {
         &--#{$i} {
             animation-delay: 200ms+200ms*$i ;
@@ -13,7 +14,7 @@
         background-color: #99EDD0;
         margin: 5px 0 15px 5px;
     }
-    
+
     &__heading {
         padding-left: 5px;
         font-size: 16px;

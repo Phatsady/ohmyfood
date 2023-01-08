@@ -1,23 +1,20 @@
 @mixin font-roboto {
     font-family: 'roboto-regular', sans-serif;
 }
+
 @mixin restaurant-cards {
     width: 100%;
     border-radius: 15px;
     background-color: $color-white;
-    margin: 12px 0 14px 0;  
+    margin: 12px 0 14px 0;
 }
 
-@mixin restaurant-img {    
+@mixin restaurant-img {
     width: 100%;
     height: 140px;
     object-fit: cover;
     border-top-left-radius: 15px;
-    border-top-right-radius: 15px;  
-}
-
-@mixin picture {
-    width: 100%;
+    border-top-right-radius: 15px;
 }
 
 @mixin tablet-only {
