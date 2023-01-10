@@ -127,7 +127,6 @@ h1, h2, h3 {
   font-family: "roboto-regular", sans-serif;
   text-align: center;
   box-shadow: 0 4px 8px #a6a6a6;
-  text-decoration: none;
 }
 .main-button:hover {
   background: linear-gradient(#ff93e1, #a16be0);

@@ -8,7 +8,6 @@
     font-family: 'roboto-regular', sans-serif;
     text-align: center;
     box-shadow: 0 4px 8px darken($color-background, 30%);
-    text-decoration: none;
 
     &:hover {
         background: linear-gradient(lighten($color-secondary, 5%), lighten($color-primary, 5%));
